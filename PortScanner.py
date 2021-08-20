@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.settimeout(0.05)
+client.settimeout(0.07)
 
 ipaddr = input("Digite o endereço do Host: ")
 port = int(input("Digite a porta a ser verificada: "))
