@@ -20,4 +20,4 @@ for srvport in srvports:
     else:
         print(str(srvport), " -> Porta Fechada!")
 
-print("Scan Finalizado")
+print("\nScan Finalizado")
